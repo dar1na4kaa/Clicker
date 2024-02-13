@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:id="@+id/main_layout"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Generation"
+        android:textSize="60dp"
+        android:id="@+id/main_text"
+        />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="....."
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center"
+        android:id="@+id/color_text"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:text="Generate"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:id="@+id/generate_button"
+        />
+
+</LinearLayout>
